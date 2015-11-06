@@ -1,4 +1,4 @@
--module(vam001_startingwith_basic_math).
+-module(f001_basic_math).
 -export([basic_math/0]).
 
 %Note: 
@@ -54,7 +54,7 @@ basic_math() ->
 %To run the program start erlang runtime environment with 
 %    erl
 %in same directory as the current example. Then on erlang prompt use:
-%    erlc(vam001_startingwith_basic_math).
+%    erlc(f001_basic_math).
 %to compile the program. If compilation returns ok and not error then use
-%    vam001_startingwith_basic_math:basic_math().
+%    f001_basic_math:basic_math().
 %to run the program and see results.
